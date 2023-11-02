@@ -62,16 +62,24 @@
 
     <main>
       <div class="container">
+        <div class="row d-flex p-2">
+            <div class="col-3">
+                <h1 class="fs-2">Catalogo Libri</h1>
+            </div>
+            <div class="col-7"></div>
+            <div class="col-2">
+                <button type="button" class="btn btn-primary wid">Aggiungi Libro</button>
+            </div>
+        </div>
         <div class="row">
-            <div class="col-1"></div>
-            <div class="col-10">
+            <div class="col-12">
                 <table class="table">
                     <thead>
                       <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
+                        <th scope="col">Titolo</th>
+                        <th scope="col">Data prestito</th>
+                        <th scope="col">Stato</th>
+                        <th scope="col">Azioni</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -120,7 +128,6 @@
                     </tbody>
                   </table>
             </div>
-            <div class="col-1"></div>
         </div>
       </div>
     </main>
